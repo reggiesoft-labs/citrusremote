@@ -86,7 +86,7 @@ fun KeyboardInputSheet(
                     verticalArrangement = Arrangement.spacedBy(4.dp)
                 ) {
                     Text(
-                        text = "Type on Apple TV",
+                        text = "Type on TV",
                         style = MaterialTheme.typography.titleMedium,
                         fontWeight = FontWeight.SemiBold
                     )

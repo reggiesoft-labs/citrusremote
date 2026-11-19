@@ -298,8 +298,8 @@ private fun DiscoveryScreenPreview() {
         DiscoveryScreenContent(
             uiState = DiscoveryUiState.Success(
                 listOf(
-                    AppleTvDevice("Living Room Apple TV", "192.168.1.100", "AppleTV6,2"),
-                    AppleTvDevice("Bedroom Apple TV", "192.168.1.101", "AppleTV5,3")
+                    AppleTvDevice("Living Room TV", "192.168.1.100", "AppleTV6,2"),
+                    AppleTvDevice("Bedroom TV", "192.168.1.101", "AppleTV5,3")
                 )
             ),
             onScan = {},

@@ -476,7 +476,7 @@ private fun PinInputBoxes(
 private fun PairingScreenPreview() {
     CitrusRemoteTheme {
         PairingScreenContent(
-            deviceName = "Living Room Apple TV",
+            deviceName = "Living Room TV",
             uiState = PairingUiState.WaitingForPin,
             pinCode = "12",
             remainingLockoutSeconds = null,

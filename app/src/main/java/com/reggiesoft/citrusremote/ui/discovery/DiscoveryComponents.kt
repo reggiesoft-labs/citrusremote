@@ -150,7 +150,7 @@ fun EmptyDeviceList(
             modifier = Modifier.padding(bottom = 8.dp)
         )
         Text(
-            text = "Make sure your Apple TV is on the same Wi-Fi network.",
+            text = "Make sure your device is on the same Wi-Fi network.",
             style = MaterialTheme.typography.bodyMedium,
             color = MaterialTheme.colorScheme.onSurfaceVariant,
             textAlign = TextAlign.Center,

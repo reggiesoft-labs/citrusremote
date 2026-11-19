@@ -240,7 +240,7 @@ internal fun ControlScreenContent(
     if (isForgetDialogVisible) {
         AlertDialog(
             onDismissRequest = { isForgetDialogVisible = false },
-            title = { Text("Forget this Apple TV?") },
+            title = { Text("Forget this device?") },
             text = { Text("You'll need to pair again to use it.") },
             confirmButton = {
                 TextButton(
@@ -276,7 +276,7 @@ private val REMOTE_PLACEMENT_SAVER = listSaver<RemotePlacement, Float>(
 private fun ControlScreenPreview() {
     CitrusRemoteTheme {
         ControlScreenContent(
-            title = "Living Room Apple TV",
+            title = "Living Room TV",
             uiState = ControlUiState.Ready,
             onBack = {},
             onCommand = {},

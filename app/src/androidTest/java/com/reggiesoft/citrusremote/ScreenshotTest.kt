@@ -99,9 +99,9 @@ class ScreenshotTest {
                 item {
                     DeviceListItem(
                         device = AppleTvDevice(
-                            name = "Living Room Apple TV",
+                            name = "Living Room TV",
                             address = "192.168.1.105",
-                            model = "Apple TV 4K"
+                            model = "tvOS Device (4K)"
                         ),
                         isPairingLocked = false,
                         onClick = {}
@@ -110,9 +110,9 @@ class ScreenshotTest {
                 item {
                     DeviceListItem(
                         device = AppleTvDevice(
-                            name = "Bedroom Apple TV",
+                            name = "Bedroom TV",
                             address = "192.168.1.120",
-                            model = "Apple TV HD"
+                            model = "tvOS Device (HD)"
                         ),
                         isPairingLocked = false,
                         onClick = {}
@@ -137,7 +137,7 @@ class ScreenshotTest {
         composeTestRule.setContent {
             CitrusRemoteTheme(darkTheme = false) {
                 ControlScreenContent(
-                    title = "Living Room Apple TV",
+                    title = "Living Room TV",
                     uiState = ControlUiState.Ready,
                     onBack = {},
                     onCommand = {},
@@ -164,7 +164,7 @@ class ScreenshotTest {
         composeTestRule.setContent {
             CitrusRemoteTheme(darkTheme = true) {
                 ControlScreenContent(
-                    title = "Living Room Apple TV",
+                    title = "Living Room TV",
                     uiState = ControlUiState.Ready,
                     onBack = {},
                     onCommand = {},

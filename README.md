@@ -84,3 +84,8 @@ To test pairing and navigation without a physical Apple TV:
    - Once pairing connects, enter PIN `1111`. The PIN field stays disabled until the mock Companion service responds.
 
    To use a physical Android phone, enter the computer's local IPv4 address in the mock server dialog. Keep the phone and computer on the same Wi-Fi network and allow incoming connections to ports `49152` and `49153` on the computer.
+
+## Disclaimer
+
+Apple, Apple TV, and tvOS are trademarks of Apple Inc., registered in the U.S. and other countries. CitrusRemote is an independent open-source application and is not affiliated with, sponsored by, or endorsed by Apple Inc.
+
